@@ -10,4 +10,6 @@ variableNew = variable + ' ' + variableNew;
 console.log(variableNew); */
 
 
-alert ('Ciao prima di entrare ho bisogno di sapere il tuo nome!')
+//alert ('Ciao prima di entrare ho bisogno di sapere il tuo nome!')
+
+//const inputUtente = prompt('Ciao prima di entrare ho bisogno di sapere il tuo nome!');
