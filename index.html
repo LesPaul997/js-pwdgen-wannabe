@@ -15,35 +15,37 @@
 <body>
     <main>
         <div class="px-4 py-5 my-5 text-center">
-            <h1 class="display-5 fw-bold text-body-emphasis">Password Generator</h1>
+            <h1 class="display-5 fw-bold text-body-emphasis"><strong>PASSWORD GENERATOR</strong></h1>
             <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">In questa pagina sono richieste due informazioni fondamentali.<br>La prima informazione è specificare il nome e cognome dell'utente, la seconda è generare una password affidabile</p>
+            <p class="lead mb-4">In questa pagina sono richieste due informazioni fondamentali.<br>La prima informazione è specificare il nome e cognome dell'utente, la seconda è generare una password affidabile!</p>
             <div class="row g-3">
-                <div class="col mb-3">
-                  <input type="text" class="form-control" placeholder="Nome" aria-label="First name">
+                <div id="nome-utente" class="col mb-3">
+                    <input  type="text" class="form-control" placeholder="Nome" aria-label="First name" >
                 </div>
-                <div class="col">
+                <div id="cognome-utente" class="col">
                   <input type="text" class="form-control" placeholder="Cognome" aria-label="Last name">
                 </div>
+                <!-- <div id="eta-utente" class="col mb-3">
+                    <input  type="text" class="form-control" placeholder="Nome" aria-label="First name" >
+                </div>
+                <div id="colore-preferito" class="col">
+                  <input type="text" class="form-control" placeholder="Cognome" aria-label="Last name">
+                </div> -->
               </div>
 
                 <div class="d-grid gap-2 col-6 mx-auto mb-3">
                     <button class="btn btn-warning" type="button">Genera</button>
                 </div>
-                <div class="mb-3">
-                    <input type="password" class="form-control" id="InputPassword"  placeholder="Inserisci Password">
+                <div id="password-segreta" class="mb-3">
+                    <input type="password" class="form-control"   placeholder="Inserisci Password">
                 </div>
             </div>
-        </div>
-    </main>
+        </div> 
   
-
-
-
-
+    </main>
 
     <!--LINK SCRIPT-->
-    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <!--/LINK SCRIPT-->
 </body>
 </html>
