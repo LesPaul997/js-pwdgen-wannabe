@@ -55,12 +55,13 @@ const color = prompt('Inserisci il tuo colore preferito');
 /* const age = prompt('Inserisci la tua età'); */
 
 
+const password = firstName + lastName + color + "21";
 
-console.log(firstName + lastName + color + "21");
 
-document.getElementById('nome-utente').innerHTML = firstName;
-document.getElementById('cognome-utente').innerHTML = lastName;
+// document.getElementById('nome-utente').innerHTML = firstName;
+// document.getElementById('cognome-utente').innerHTML = lastName;
 /* document.getElementById('colore-preferito').innerHTML = color;
 document.getElementById('eta-utente').innerHTML = age; */
 
-/* document.getElementById('password-segreta').innerHTML = PasswordSegreta; */
+console.log(password);
+ document.getElementById('password-segreta').value = password; 
